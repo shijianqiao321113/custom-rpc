@@ -14,6 +14,6 @@ zookeeper、用于服务发现，服务注册，分布式锁等
 
 负载算法、支持随机算法，轮询算法，ip_hash算法，权重
 
-![image](https://github.com/shijianqiao321113/custom-rpc/blob/master/TIM%E6%88%AA%E5%9B%BE20180523170643.png)
+![image](https://github.com/shijianqiao321113/custom-rpc/blob/master/custom-rpc/TIM%E6%88%AA%E5%9B%BE20180523170643.png)
 
-![image](https://github.com/shijianqiao321113/custom-rpc/blob/master/zookeeperFlowNode.png)
+![image](https://github.com/shijianqiao321113/custom-rpc/blob/master/custom-rpc/zookeeperFlowNode.png)
