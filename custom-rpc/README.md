@@ -53,6 +53,6 @@ spring boot 服务端接口实现类注解
 spring boot 客户端启动标记注解
 @CustomRpcClient
 
-![image](https://github.com/shijianqiao321113/custom-rpc/blob/master/custom-rpc/TIM%E6%88%AA%E5%9B%BE20180523170643.png)
+![image](https://github.com/shijianqiao321113/custom-rpc/blob/master/custom-rpc/20180615112622.png)
 
 ![image](https://github.com/shijianqiao321113/custom-rpc/blob/master/custom-rpc/zookeeperFlowNode.png)
