@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.custom.rpc.spring.boot.autoconfigure</groupId>
+	<artifactId>custom-rpc-spring-boot-starter</artifactId>
+	<version>1.0.0</version>
+	<packaging>jar</packaging>
+
+	<name>custom-rpc-spring-boot-starter</name>
+
+	<properties>
+		<custom.rpc.version>1.0.0</custom.rpc.version>
+		<spring-boot.version>1.5.3.RELEASE</spring-boot.version>
+	</properties>
+
+    
+	<dependencies>
+		<dependency>
+            <groupId>com.rpc</groupId>
+            <artifactId>custom-rpc</artifactId>
+            <version>${custom.rpc.version}</version>
+        </dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+			<version>${spring-boot.version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+            <plugin>  
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                	<source>1.8</source>
+		            <target>1.8</target>
+		            <encoding>UTF8</encoding>
+		            <archive>  
+	                    <addMavenDescriptor>false</addMavenDescriptor>  
+	                </archive>
+                </configuration>
+            </plugin>  
+		</plugins>
+	</build>
+</project>
